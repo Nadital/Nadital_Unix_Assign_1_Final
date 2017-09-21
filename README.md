@@ -33,10 +33,22 @@ Number of lines: 984
 
 ## Codes used:
 
-For file size:          $ du -h
-For file type:          $ file
-For columns:            $ awk -F "\t" '{print NF; exit}'
-For line count:         $ wc -l
+File size: $ du -h
+
+File type: $ file
+
+Column count: $ awk -F "\t" '{print NF;exit}'
+
+Line count: $ wc -l
+
+## Codes used for generation of files are in README2
+
+
+
+
+
+
+
 
 
 
