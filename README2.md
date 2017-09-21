@@ -45,3 +45,11 @@ $ for i in {1..10}; do sort -k3,1n chr"$i"_teosinte_data > chr"$i"_teosinte_inc_
 $ for i in {1..10}; do sort -k3,1n -r chr"$i"_teosinte_data > chr"$i"_teosinte_dec_nt; done
 
 $ for i in {1..10}; do sed 's/?/-/g' chr"$i"_teosinte_dec_nt > chr"$i"_teosinte_dec_nt_final; done
+
+$ awk '$2 ~ /unknown/' cut_maize_data > Nadital_Unix_Assign_1_Final/maize_snp_unknown_pos_final
+
+$ awk  '$2 ~ /multiple/' cut_maize_data > Nadital_Unix_Assign_1_Final/maize_snp_multiple_pos_final
+
+$ awk '$2 ~ /unknown/' cut_teosinte_data > Nadital_Unix_Assign_1_Final/teosinte_snp_unknown_pos_final
+
+$ awk '$2 ~ /multiple/' cut_teosinte_data > Nadital_Unix_Assign_1_Final/teosinte_snp_multiple_pos_final
