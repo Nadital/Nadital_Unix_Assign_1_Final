@@ -1,4 +1,4 @@
-#Codes used for file creation:
+# Codes used for file creation:
 
 $ grep-E "(ZMMIL|ZMMLR|ZMMMR)" fang_et_al_genotypes.txt > Nadital_Unix_Assign_1/maize_genotypes_no_head
 
