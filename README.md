@@ -14,8 +14,8 @@ Number of lines: 2783
 - Code: $ wc -l fang_et_al_genotypes.txt
 
 
-
-
+<br><br>
+<spanstyle="colordarkblue>
 ## Info on file structure and dimensions on snp position file:
 
 File size: 84 K
@@ -30,6 +30,7 @@ Number of columns: 15
 Number of lines: 984
 - Code: $ wc -l snp_position.txt
 
+</span><br><br>
 
 ## Codes used:
 
